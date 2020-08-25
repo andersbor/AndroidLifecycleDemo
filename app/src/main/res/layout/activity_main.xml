@@ -11,10 +11,19 @@
         android:layout_height="wrap_content"
         android:text="Watch the Log in Android Studio when you run the application" />
 
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="50"
         android:onClick="gotoAnotherActivity"
         android:text="Another Activity" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="One More" />
 </LinearLayout>
+
+
